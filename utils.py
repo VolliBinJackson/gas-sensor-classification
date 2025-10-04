@@ -1,6 +1,6 @@
 import pandas as pd
 
-# For loading only one batch; Not needed anymore
+# For loading only one batch
 def load_dat_file(filepath):
     data = []
     with open(filepath, 'r') as file:
