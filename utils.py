@@ -1,6 +1,6 @@
 import pandas as pd
 
-# For loading only one batch
+# lädt nur einen batch aus dem Dataset
 def load_dat_file(filepath):
     data = []
     with open(filepath, 'r') as file:
@@ -12,7 +12,7 @@ def load_dat_file(filepath):
             data.append(features)
     return pd.DataFrame(data)
 
-# For loading all batches
+# Nötig, um alle batches zu laden 
 def load_all_batches(folderpath, batches=10):
     dfs = []
     for i in range(1, batches+1):
