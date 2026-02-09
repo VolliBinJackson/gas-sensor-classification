@@ -51,6 +51,7 @@ Random Forest
   - Nach Training:
      - Konfusionsmatrix
      - Feature Importance Analyse
+
    
 LSTM und Transformer
    - Sequenzbasierte Inputs
