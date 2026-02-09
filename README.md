@@ -5,7 +5,7 @@ Dieses Projekt untersucht die Klassifikation von Gasarten (1–6) anhand multiva
 Neben der reinen Vorhersageleistung liegt ein starker Fokus auf Interpretierbarkeit mittels Attention-Mechanismen und Feature-Analysen.
 
 
-# Motivation & Problemstellung
+# 1) Motivation & Problemstellung
 
 In realen Sensorsystemen (z. B. industrielle Gasdetektion) treten zwei zentrale Herausforderungen auf:
 
@@ -25,7 +25,7 @@ Robuste Klassifikation der Gasarten und gleichzeitige Erklärbarkeit, um zu vers
 entscheidend für die Modellentscheidung sind.
 
 
- # Datensatz
+ # 2) Datensatz
 
 - UCI Gas Sensor Array Drift Dataset
 - Multivariate Zeitreihen von Gassensoren
@@ -33,7 +33,7 @@ entscheidend für die Modellentscheidung sind.
 - Enthält explizit zeitabhängige Drift-Effekte
 
 
-# Ziele des Projekts
+# 3) Ziele des Projekts
 
 - Klassifikation der Gasarten (1–6)
 - Vergleich klassischer ML-Modelle mit Deep-Learning-Ansätzen
@@ -42,8 +42,9 @@ entscheidend für die Modellentscheidung sind.
 - Saubere, modulare und reproduzierbare ML-Pipeline
 
 
-# Modellarchitektur & Baselines
-# Klassische ML-Baseline
+# 4) Modellarchitektur & Baselines
+
+Klassische ML-Baseline
 
 Random Forest
   - Trainiert auf aggregierten Features
@@ -64,7 +65,7 @@ LSTM und Transformer
         - Driftanalyse anhand von Hidden States und Attention-Gewichten
     
 
-# Training & Evaluation
+# 5) Training & Evaluation
 
 - Alle 3 Modelle wurden vollständig trainiert
 - 5-Fold Cross-Validation zur stabilen Evaluation
@@ -77,7 +78,7 @@ LSTM und Transformer
  
 
 
-# Interpretierbarkeit
+# 6) Interpretierbarkeit
 
 - Random Forest:
    - Feature Importance zur Identifikation relevanter Sensoren
@@ -89,7 +90,7 @@ LSTM und Transformer
   - Zusammenhang zwischen Drift und Modellfokus
  
 
-# Technologien & Tools
+# 7) Technologien & Tools
 
 - Python
 - NumPy, Pandas, Scikit-Learn
@@ -100,7 +101,7 @@ LSTM und Transformer
 
 
 
-# Modellübersicht & Ergebnisse
+# 8) Modellübersicht & Ergebnisse
 
 Ziel:
 Klassifikation von Gasarten aus multivariaten Zeitreihen unter Sensordrift mit Fokus auf Interpretierbarkeit.
@@ -156,7 +157,7 @@ Klassifikation von Gasarten aus multivariaten Zeitreihen unter Sensordrift mit F
 
 
 
-# Fazit
+# 9) Fazit
 
 - Alle Modelle sind für die Gasklassifikation geeignet
 - Random Forest: effizient & sehr genau
