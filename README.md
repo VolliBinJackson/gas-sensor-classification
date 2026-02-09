@@ -11,7 +11,7 @@ In realen Sensorsystemen (z. B. industrielle Gasdetektion) treten zwei zentrale 
 
 1. Multivariate Zeitreihen
    → Viele Sensoren liefern gleichzeitig Messwerte, die zeitlich voneinander abhängen.
-2- Sensordrift
+2. Sensordrift
     → Sensoren verändern ihr Verhalten über die Zeit (Alterung, Umweltbedingungen),
     wodurch sich Datenverteilungen verschieben und Modelle an Genauigkeit verlieren.
 
